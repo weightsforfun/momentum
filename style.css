@@ -1,3 +1,80 @@
-.hidden{
-    display: none;
+.hidden {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.mainbg {
+  height: 100vh;
+  width: 185vh;
+  position: absolute;
+  z-index: 0;
+}
+.contents {
+  position: relative;
+  z-index: 1;
+  bottom: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#clock {
+  font-size: 120px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 5px;
+}
+#greeting {
+  font-size: 60px;
+  font-weight: 400;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 100px;
+}
+#greeting2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+#todo-form {
+  border: 0px;
+  outline: 0px;
+  border-bottom: solid 1px white;
+  background-color: rgba(0, 0, 0, 0);
+}
+#todo-form input {
+  font-size: 25px;
+  height: 30px;
+  width: 350px;
+  outline: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 1);
+}
+.todo-thing {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 300px;
+}
+.todo-thing span {
+  color: white;
+  margin-right: 10px;
+}
+.todo-thing button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+}
+#weather {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+#weather span {
+  margin: 0 10px;
+  font-size: 20px;
+}
+#quote {
+  color: white;
+  font-size: 20px;
 }
