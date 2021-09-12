@@ -1,0 +1,29 @@
+#todo-form {
+  border: 0px;
+  outline: 0px;
+  border-bottom: solid 1px white;
+  background-color: rgba(0, 0, 0, 0);
+}
+#todo-form input {
+  font-size: 25px;
+  height: 30px;
+  width: 350px;
+  outline: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+.todo-thing {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 300px;
+}
+.todo-thing span {
+  color: white;
+  margin-right: 10px;
+}
+.todo-thing button {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 0px;
+}

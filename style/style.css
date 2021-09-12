@@ -1,0 +1,61 @@
+@import url("login.css");
+@import url("todo.css");
+@import url("more.css");
+.hidden {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.mainbg {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  z-index: 0;
+}
+#weather {
+  position: fixed;
+  z-index: 1;
+  color: white;
+  left: 87vw;
+  top: 1vh;
+}
+#weather span {
+  margin: 0 10px;
+  font-size: 16px;
+}
+.contents {
+  position: relative;
+  z-index: 1;
+  bottom: -10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#clock {
+  font-size: 10vh;
+  font-weight: 10vh;
+  color: white;
+  margin-bottom: 3%;
+}
+
+#greeting {
+  font-size: 6vh;
+  font-weight: 400;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+#greeting2 {
+  font-size: 4vh;
+  font-weight: 400;
+  color: white;
+}
+
+#quote {
+  color: white;
+  font-size: 2vh;
+}
